@@ -123,8 +123,8 @@ input[type = "submit"]:hover{
 
 @media(max-width: 480px){
     .overallContainer{
-        width: 300px ;
-        height: 300px;
+        width: 400px ;
+        height: 400px;
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -132,7 +132,7 @@ input[type = "submit"]:hover{
     .weather{
             margin-top: 2em;
             text-align: center;
-            width: 400px;
+            width: 300px;
             color: #16a864;
             position: relative;
             left: 17%;
