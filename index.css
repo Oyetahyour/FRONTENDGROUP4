@@ -96,3 +96,51 @@ input[type = "submit"]:hover{
     color: #f4780d;
     font-size: 25px;
 }
+
+@media(max-width: 768px){
+    .overallContainer{
+    width: 600px ;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .weather{
+        margin-top: 2em;
+        text-align: center;
+        width: 400px;
+        color: #16a864;
+        position: relative;
+        left: 17%;
+    }
+    
+    .container{
+        background-color: white;
+        height: 45vh;
+        border-radius: 2px;
+    }
+}
+
+@media(max-width: 480px){
+    .overallContainer{
+        width: 300px ;
+        height: 300px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .weather{
+            margin-top: 2em;
+            text-align: center;
+            width: 400px;
+            color: #16a864;
+            position: relative;
+            left: 17%;
+        }
+        
+    .container{
+            background-color: white;
+            height: 45vh;
+            border-radius: 2px;
+        }
+}
