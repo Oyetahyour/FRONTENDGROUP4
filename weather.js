@@ -10,8 +10,9 @@ function convertion(val)
     return (val - 273).toFixed(2)
 }
 
-getWeatherbtn.addEventListener('click', function()
+getWeatherbtn.addEventListener('click', function(event)
 {
+  event.preventDefault()
   fetch('https://api.openweathermap.org/data/2.5/weather?q=' +inputCity.value+'&appid='+apik)
   .then(res => res.json())
   .then(data => {
