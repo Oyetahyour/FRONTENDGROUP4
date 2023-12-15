@@ -5,7 +5,7 @@
 
 .overallContainer{
     width: 800px;
-    height: 700px;
+    height: 900px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -97,7 +97,19 @@ input[type = "submit"]:hover{
     font-size: 25px;
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
+    .overallContainer {
+        width: 90%;
+    }
+
+    .form,
+    .weather,
+    .container {
+        width: 100%;
+    }
+}
+
+/*@media(max-width: 768px){
     .overallContainer{
     width: 600px ;
     height: 700px;
@@ -147,7 +159,7 @@ input[type = "submit"]:hover{
     }
         
     .container{
-            height: 55vh;
+            height: 45vh;
     }
         
     .container p{
