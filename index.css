@@ -97,18 +97,6 @@ input[type = "submit"]:hover{
     font-size: 25px;
 }
 
-@media (max-width: 768px) {
-    .overallContainer {
-        width: 90%;
-    }
-
-    .form,
-    .weather,
-    .container {
-        width: 100%;
-    }
-}
-
 /*@media(max-width: 768px){
     .overallContainer{
     width: 600px ;
@@ -127,8 +115,9 @@ input[type = "submit"]:hover{
         border-radius: 2px;
     }
 }
+*/
 
-@media(max-width: 480px){
+@media(max-width: 768px){
     .overallContainer{
         max-width: 100% ;
         max-height: 100%;
