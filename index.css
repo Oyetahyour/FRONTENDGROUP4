@@ -137,7 +137,7 @@ input[type = "submit"]:hover{
 
 @media(max-width: 480px){
     .overallContainer{
-        width: 300px ;
+        width: 350px ;
         height: 700px;
     }
 
